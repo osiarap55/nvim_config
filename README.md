@@ -1,2 +1,2 @@
 ## nvim_config
-# nvim configuration to code 
+### nvim configuration to code 
