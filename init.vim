@@ -27,7 +27,7 @@ nnorema <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-:colorscheme spacecamp
+:colorscheme nord
 
 nmap <F8> :TagbarToggle<CR>
 
