@@ -27,6 +27,7 @@ Plug 'https://github.com/simrat39/rust-tools.nvim'
 Plug 'https://github.com/mfussenegger/nvim-dap'
 Plug 'https://github.com/rcarriga/nvim-dap-ui'
 Plug 'https://github.com/ldelossa/nvim-dap-projects'
+Plug 'https://github.com/lervag/vimtex'
 
 call plug#end()
 
@@ -34,9 +35,10 @@ nnorema <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-:colorscheme purify
+:colorscheme abstract
 
 nmap <F8> :TagbarToggle<CR>
+
 
 :set completeopt-=preview " For No Previews
 
@@ -52,7 +54,7 @@ endfunction
 
 inoremap <silent><expr> <Tab>
       \ coc#pum#visible() ? coc#pum#next(1) :
-      \ CheckBackspace() ? "\<Tab>" :
+      \ CheckBackspace() ? "\<Tab>" : 
 	  \ coc#refresh()
 
 " Configuración para dap.nvim
