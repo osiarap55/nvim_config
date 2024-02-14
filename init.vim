@@ -31,7 +31,7 @@ Plug 'https://github.com/lervag/vimtex'
 
 call plug#end()
 
-nnorema <C-f> :NERDTreeFocus<CR>
+nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
